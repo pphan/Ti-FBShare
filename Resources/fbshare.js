@@ -8,10 +8,6 @@
 *    If the user was on facebook, we trigger the dialog right away
 **/
  
-
-
- 
-
 if(Titanium.Facebook.loggedIn)
 {
      send_facebook_stream();
@@ -45,12 +41,12 @@ function send_facebook_stream()
  
     // CREATE THE FACEBOOK MESSAGE
     var data = {
-    name:'Your App Name', 
+    name:'iDhamma', 
     // set the link if necessary
-    link:"http://a2.mzstatic.com/us/r1000/111/Purple/51/1e/3f/mzl.ewwvdahb.175x175-75.jpg",
-    caption:"ၾကီးပြားခ်မ္းသာေရးကို အလိုရွိၾကေသာ နတ္ လူတို႕သည္ ၁၂ ႏွစ္ၾကာေအာင္ မဂၤလာတရား အစစ္အမွန္ကို ရွာေဖြခဲ့ၾကေသာ္လည္း ၃၈ျဖာမဂၤလာတရားေတာ္အစစ္အမွန္ကို မရရွိခဲ့ၾကပါ။",
+    link:"http://itunes.apple.com/sg/app/idhamma/id420570850?mt=8",
+    caption:"iDhamma is religious application for Burmese people.",
  	// now you add your text
-    description: "Description of your App." 
+    description: "iDhamma is religious application for Burmese people." 
  
  };
     
